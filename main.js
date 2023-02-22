@@ -9,8 +9,8 @@ for (let i=0; i<30; i++) {
 }
 
 for (let i=0; i<30; i++) {
-	column_3.push(Math.floor(Math.random()*100+1))
-	column_4.push(Math.floor(Math.random()*100+1))
+	column_3.push(Math.floor(Math.random()*61+40))
+	column_4.push(Math.floor(Math.random()*61+40))
 }
 
 const sum_1 = column_1.reduce((a, b) => a + b, 0);
